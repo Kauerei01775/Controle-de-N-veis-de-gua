@@ -1,0 +1,18 @@
+from colorama import Fore, Style
+
+agua = 2
+
+nivel = [1, 2, 3, 4, 5,]
+
+if agua == 1:
+    print(Fore.RED + 'Nível Muito Baixo, Crítico!')
+elif agua == 2:
+    print(Fore.YELLOW + 'Nível Baixo, Atenção!')
+elif agua == 3:
+    print(Fore.GREEN + 'Nível Normal, Tudo Ok!')
+elif agua == 4:
+    print(Fore.CYAN + 'Nível Alto, Atenção!')
+elif agua == 5:
+    print(Fore.BLUE + 'Nível Muito Alto, (Alerta!)')
+
+print(Style.RESET_ALL)
