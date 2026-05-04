@@ -14,5 +14,7 @@ elif agua == 4:
     print(Fore.CYAN + 'Nível Alto, Atenção!')
 elif agua == 5:
     print(Fore.BLUE + 'Nível Muito Alto, (Alerta!)')
+else:
+    print(Fore.MAGENTA + 'Nível Inválido, Por favor insira um número entre 1 e 5.')
 
 print(Style.RESET_ALL)
